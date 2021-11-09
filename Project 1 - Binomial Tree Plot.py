@@ -10,7 +10,7 @@ S0 = 9   # stock price at t=0
 K = 10   # strike
 N = 3    # maturity (years)
 r = 0.06 # annual risk-free rate
-T = 400   # number of steps
+T = 15   # number of steps
 std = .3 # annual standard deviation
 
 delta_t = N/T
@@ -174,4 +174,4 @@ ax2.set_ylabel('S - Log Scale')
 ax2.set_xlabel('Time')
 
 ax2.set_yscale('log')
-# plt.show()
+plt.show()
